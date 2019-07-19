@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>User</Author>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9795</WindowHeight>
+  <WindowWidth>13395</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s109">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s111">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s116">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s117">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s118">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="BOM_DATA recorder">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="17.25"/>
+   <Column ss:Width="132.75"/>
+   <Column ss:Width="178.5"/>
+   <Column ss:Width="123"/>
+   <Column ss:Width="45.75"/>
+   <Column ss:Width="132.75"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="44.25"/>
+   <Column ss:Width="65.25"/>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Designator</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Footprint</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Quantity</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Manufacturer Part</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Manufacturer</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Supplier</Data></Cell>
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Supplier Part</Data></Cell>
+    <Cell ss:StyleID="s118"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ARDUINO_NANO</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">U1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ARDUINO_NANO</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">0-5V</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">CN1,CN2,CN3,CN4</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">KF301</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">220V</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">KF301</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">LEDOrange orange 3AO4UD</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">GREEN_LED_1,RED_LED2,BLUE_LED_3</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">LED-3MM</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">LEDOrange orange 3AO4UD</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">KENTO</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">LCSC</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">C62095</Data></Cell>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">220</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">R2</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">AXIAL-0.4</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">10k</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">R3</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">AXIAL-0.4</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">1k</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">R1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">AXIAL-0.4</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">AC-DC 5V</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">U2</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">HLK-PM01</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Micro SD card module</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">U3</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">MICRO SD CARD MODULE</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Header-Male-2.54_1x1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">P1,P3</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">HDR-1X1/2.54</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Header-Male-2.54_1x1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ReliaPro</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">LCSC</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">C81276</Data></Cell>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">BUTTON</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">KEY1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">KEY-6.0*6.0-2</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">TS-1102-5016</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">SOFNG</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">LCSC</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">C111609</Data></Cell>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">SWITCHES</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">DIP1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">VDG/S-04HG-R</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">VDG/S-04HG-R</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ReliaPro</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">LCSC</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">C15781</Data></Cell>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">RTC</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">U4</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">RTC_PCB</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">?</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s109"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
